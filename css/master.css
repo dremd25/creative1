@@ -5,3 +5,11 @@
     background-attachment: fixed;
     background-size: cover;
 }
+
+.navbar {
+    background-color: blue;
+}
+
+.active {
+    color: yellow !important;
+}

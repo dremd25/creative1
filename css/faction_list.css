@@ -1,0 +1,14 @@
+.ship {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ship img {
+
+}
+
+.ship p {
+
+}
