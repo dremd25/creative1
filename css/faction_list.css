@@ -9,6 +9,7 @@
 
 .ship img {
     max-width: 200px;
+    max-height: 300px;
     width: auto;
     height: auto;
     display: block;
@@ -51,6 +52,18 @@
 }
 
 #ewing_linked {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#advancedx1_linked {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#bomber_linked {
     margin: 0;
     display: flex;
     flex-direction: row;
