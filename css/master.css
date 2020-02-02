@@ -3,7 +3,8 @@
 }
 
 body {
-    min-height: 100%;
+    min-height: 100vh;
+    position: relative;
     background: url('/images/background.jpg') grey;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,7 +16,7 @@ body {
     height: auto;
     width: 100%;
     padding: 20px;
-    background-color: #5c5c5c;
+    background-color: #808080;
     opacity: 0.5;
     filter: alpha(opacity=100); /* For IE8 and earlier */
     color: yellow;
@@ -40,13 +41,21 @@ body {
 }
 
 .nav-item {
-    border-left: 2px solid grey;
-    border-right: 1px solid grey:
+    border-left: 2px solid #707070;
+    border-right: 1px solid #707070:
     padding: 0px 20px;
     color: #636363 !important;
 }
 
 /* Body */
+.content {
+    width: 98%;
+    margin: auto;
+    padding-bottom: 60px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
 
 /* Footer */
 .footer {
